@@ -19,7 +19,7 @@ Crea una clase llamada `Estudiante`.
 **Prueba tu código:**
 Crea un estudiante llamado "Ana" con nota 8.5 y otro "Luis" con nota 4.2. Comprueba si han aprobado imprimiendo el resultado del método `es_aprobado()`.
 
-### Ejercicio 3 (Reto): La Cuenta Bancaria
+### Ejercicio 3 (Reto): La Cuenta Bancaria ✅
 Crea una clase `CuentaBancaria`.
 1.  **Atributos**: `titular` y `saldo` (inicialízalo en 0 si no se da otro valor).
 2.  **Método** `depositar(cantidad)`: Suma la cantidad al saldo.
