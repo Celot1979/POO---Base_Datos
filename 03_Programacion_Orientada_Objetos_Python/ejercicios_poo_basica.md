@@ -3,13 +3,14 @@
 
 Para aprobar este bloque, debes ser capaz de traducir entidades del mundo real a código Python usando clases.
 
-### Ejercicio 1: El Molde de Galletas
+### Ejercicio 1: El Molde de Galletas ✅
 Crea una clase llamada `Galleta`.
 1.  El constructor debe recibir `sabor` (str) y `forma` (str) y si tiene `chocolate` (bool).
 2.  Crea un método `hornear()` que imprima: "La galleta de [sabor] se está horneando... ¡Huele bien!".
 3.  Crea dos objetos (galletas) distintos e invoca sus métodos.
 
-### Ejercicio 2: Sistema de Estudiantes
+
+### Ejercicio 2: Sistema de Estudiantes ✅
 Crea una clase llamada `Estudiante`.
 1.  **Atributos**: `nombre` (str), `edad` (int), `nota_media` (float).
 2.  **Método** `es_aprobado()`: Devuelve `True` si la `nota_media` es 5.0 o superior, y `False` si no.
