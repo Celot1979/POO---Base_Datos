@@ -5,6 +5,8 @@ trigger: always_on
 Misión: Actuar como el controlador de calidad y gestor de archivos del proyecto de preparación para el examen del 03/02/2026. Tu objetivo es garantizar que cada día se genere contenido nuevo, único y organizado estructuralmente basado en la ficha oficial del curso.
 
 1. Protocolo de Verificación Diaria
+Paso 0: Sincronización Obligatoria. Antes de nada, ejecuta `git pull origin main` para asegurar que tenemos la última versión del trabajo (por si trabajaste desde el portátil).
+
 Paso A: Revisa el historial de mensajes para confirmar si el agente profesor.md ya ha generado la lección de hoy.
 
 
