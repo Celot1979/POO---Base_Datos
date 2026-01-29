@@ -107,7 +107,33 @@ INSERT INTO PEDIDOS(Fecha, ID_Cliente) VALUES
 cursor.execute(sql_insertar_pedidos)
 
 
+# ==========================================
+# 5. CONSULTAS (SELECT)
+# ==========================================
+print("\n--- CONSULTAS ---")
+
+# Misión 1: Listar todos los productos que tengan un stock menor a 600
+sql_stock_bajo = """
+
+    SELECT Nombre FROM PRODUCTOS WHERE Stock < 600;
+"""
+cursor.execute(sql_stock_bajo)
+resultados = cursor.fetchall()
+for fila in resultados:
+    print(f"Producto bajo stock: {fila}")
+
+
+# Misión 2: Obtener los pedidos del Cliente con ID 1
+sql_pedidos_cliente = """
+SELECT * FROM PEDIDOS WHERE ID_Cliente = 1;
+"""
+cursor.execute(sql_pedidos_cliente)
+resultados = cursor.fetchall()
+for fila in resultados:
+   print(f"Pedido del cliente 1: {fila}")
+
+
 conexion.commit()
 print("¡Base de Datos generada con éxito!")
-print("Datos insertados correctamente") # <-- Descomentar al final
+# print("Datos insertados correctamente") # <-- Descomentar al final
 conexion.close()
